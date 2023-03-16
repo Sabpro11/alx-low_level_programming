@@ -2,14 +2,14 @@
 /**
  * main - A C program that prints a size of various computer types
  * Return: 0 (success)
- */
+ I*/
 int main(void)
 {
 char a;
 int b;
-float c;
-long int d;
-long long int e;
+long c;
+long long d;
+float e;
 printf("size of a char: %lu byte(s)\n", sizeof(a));
 printf("size of an int: %lu byte(s)\n", sizeof(b));
 printf("size of a float: %lu byte(s)\n", sizeof(c));
