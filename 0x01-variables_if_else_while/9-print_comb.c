@@ -13,7 +13,8 @@ for (i = 0; i < 10; i++)
 {
 if (i < 9)
 {
-putchar("%d"; i);
+printf("%d", i);
+putchar(',');
 putchar(' ');
 }
 }
