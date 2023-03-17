@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Determines if a number is positif, negatif or zero
  * Return: 0 (success)
