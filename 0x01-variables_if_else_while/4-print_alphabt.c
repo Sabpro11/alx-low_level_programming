@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - A program that prints the alphabet in lowercase and uppercase
+ * main - A a program that prints the alphabet in lowercase
  * Return: 0 (success)
  */
 int main(void)
@@ -11,19 +11,13 @@ int main(void)
 char c;
 char d;
 c = 'a';
-d = 'A';
 while
 (c <= 'z')
 {
+if (( c != 'q' && c != 'e') && c <= 'z')
 putchar(c);
 c++;
 }
 putchar('\n');
-while
-(d <= 'Z')
-{
-putchar(d);
-d++;
-}
 return (0);
 }
