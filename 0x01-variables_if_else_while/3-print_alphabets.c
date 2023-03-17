@@ -18,6 +18,7 @@ while
 putchar(c);
 c++;
 }
+printf('\n');
 while
 (d <= 'Z')
 {
